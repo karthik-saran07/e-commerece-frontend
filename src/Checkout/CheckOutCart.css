@@ -162,5 +162,10 @@ body{
 .checkout-box-subTotal button:hover{
     background-color: #45a049;
 }
-
+@media (max-width: 600px) {
+    .cart-page {
+        margin: 10px;
+        padding: 10px;
+    }
+  }
 
