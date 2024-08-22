@@ -36,7 +36,6 @@ const CheckOutCart = () => {
     return (
         <>
             <NavBar />
-            <h1 style={{ marginTop: "90px", marginLeft: "515px" }}>Shopping Cart</h1>
             <div className="cart-page">
                 {cart.length === 0 ? (
                     <div className="cart-empty">
