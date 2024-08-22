@@ -11,7 +11,7 @@ const Signup = () => {
     try {
         
         var validateSignup = async (values) => {
-            await axios.post("http://localhost:8000/api/user/createUser", values);
+            await axios.post("https://e-commerce-backend-karthik-saran07.onrender.com/api/user/createUser", values);
             alert("Signup sucess!")
             navigate('/login')
         }
