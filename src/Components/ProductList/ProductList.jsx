@@ -24,7 +24,7 @@ const ProductList = ()=>
     const productData = async () => {
         try {
          
-         await axios.get("http://localhost:8000/api/product/getProduct")
+         await axios.get("https://e-commerce-backend-karthik-saran07.onrender.com/api/product/getProduct")
          .then( (res)=> {
              setProducts(res.data)
          })
