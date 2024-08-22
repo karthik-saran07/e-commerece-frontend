@@ -40,7 +40,7 @@ const Login = ()=>{
                         <input type="text" placeholder="Enter email" onChange={(e)=>setEmail(e.target.value)}/>
                     
                     
-                        <input type="text" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
+                        <input type="password" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
                     
                         <div className="login-button">
                         <button onClick={handleclickfunction}>Login</button>
