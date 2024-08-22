@@ -40,6 +40,7 @@ const Signup = () => {
             
         <div className="signup-box">
             <h1>SignUp</h1>
+            <form>
             <div className="user-name">
                 <input placeholder="name" type="text" onChange={(e)=>setName(e.target.value)} />
             </div>
@@ -52,6 +53,7 @@ const Signup = () => {
             <button onClick={handleSignup}>Signup</button>
             <p>Already have an account ?</p>
             <button onClick={()=>navigate("/login")}> Login</button>
+            </form>
         </div>
         </div>
         </>
